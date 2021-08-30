@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+/* поменять на статичные шрифты */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E5E5E5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    max-width: 1440px;
+    width: 100%;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding: 15px 0;
+    justify-content: space-around;
+
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    color: #1F2041;
+
+}
+
+.dropdown {
+    list-style-image: url("expand_more.png");
+}
+
+
+header ul {
+    list-style: none;
+    display: inline-flex;
+    justify-content: end;
+}
+header li {
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+
+
+.active {
+    font-weight: 700;
+}
+
+.logo {
+}
+
+
+
+button {
+    border: 2px solid #000;
+    border-radius: 25px;
+    padding: 2px 25px;
+    color: #000;
+    background-color: #E5E5E5;
+}
